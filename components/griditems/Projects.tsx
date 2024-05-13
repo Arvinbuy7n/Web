@@ -39,7 +39,7 @@ export const CinemaAppItem = () => {
               onMouseLeave={() => setIsHovered(false)}
               onMouseDown={(e) => {
                 e.stopPropagation();
-                window.open('https://github.com/Leap1b-23-24/TEAM4-BASH');
+                window.open('https://team-4-bash.vercel.app/');
               }}
             />
           </motion.button>

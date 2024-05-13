@@ -1,9 +1,7 @@
-"use client";
+'use client';
 
-import { getAuth } from "@/api/spotify";
-import { DragFromOutsideLayout } from "@/components/grid/DropDrag";
-import Header from "@/components/header";
-import { useEffect } from "react";
+import { DragFromOutsideLayout } from '@/components/grid/DropDrag';
+import Header from '@/components/header';
 
 export default function Home() {
   return (
@@ -15,4 +13,3 @@ export default function Home() {
     </main>
   );
 }
-// xl:px-40 lg:px-20 md:px-10 xs:px-20  sm:px-20 xxs:px-6

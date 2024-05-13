@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { getAuth } from "@/api/spotify";
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { FaSpotify } from "react-icons/fa";
-import UseAnimations from "react-useanimations";
-import activity from "react-useanimations/lib/activity";
-import { motion } from "framer-motion";
+import { getAuth } from '@/api/spotify';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+import { FaSpotify } from 'react-icons/fa';
+import UseAnimations from 'react-useanimations';
+import activity from 'react-useanimations/lib/activity';
+import { motion } from 'framer-motion';
 
 const SpotifyItem = () => {
   const [tracks, setTracks] = useState<any>({});
@@ -40,28 +40,19 @@ const SpotifyItem = () => {
         whileTap={{ scale: 0.9 }}
         onMouseDown={(e: any) => {
           e.stopPropagation();
-          window.open(
-            "https://open.spotify.com/playlist/5B53KpbxKXlM8DPeVEqAhr"
-          );
+          window.open('https://open.spotify.com/playlist/5B53KpbxKXlM8DPeVEqAhr');
         }}
         className="cursor-pointer max-sm:size-[35px] size-[50px]"
       >
-        <FaSpotify size={"full"} />
+        <FaSpotify size={'full'} />
       </motion.button>
       <div>
         <div className="flex items-center select-none">
-          <UseAnimations
-            animation={activity}
-            size={30}
-            fillColor={"green"}
-            strokeColor="green"
-          />
+          <UseAnimations animation={activity} size={30} fillColor={'green'} strokeColor="green" />
           <p className="sm:text-lg text-sm">Now Playing...</p>
         </div>
         <p className="sm:text-lg text-sm mt-1 select-none">{tracks?.name}</p>
-        <p className="sm:text-2xl text-lg text-bold select-none">
-          {artist?.name}
-        </p>
+        <p className="sm:text-2xl text-lg text-bold select-none">{artist?.name}</p>
       </div>
     </div>
   );
