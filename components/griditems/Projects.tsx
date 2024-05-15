@@ -147,7 +147,7 @@ export const ExpenseTrack = () => {
               onMouseLeave={() => setIsHovered(false)}
               onMouseDown={(e) => {
                 e.stopPropagation();
-                window.open("https://fooddelivery-chekist-pi.vercel.app/");
+                window.open("https://back-end-chekist.vercel.app/");
               }}
             />
           </motion.button>
