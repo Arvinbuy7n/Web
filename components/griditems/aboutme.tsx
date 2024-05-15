@@ -1,7 +1,7 @@
 import { siteConfig } from "@/config/site-config";
 import React from "react";
 
-export const About = () => {
+export const AboutMe = () => {
   return (
     <div className="flex max-md:flex-col items-center space-x-3 gap-6">
       <div className="select-none max-md:size-[130px]">
