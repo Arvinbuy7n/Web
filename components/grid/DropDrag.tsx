@@ -19,7 +19,7 @@ import {
 import { motion } from "framer-motion";
 import { Resume } from "../griditems/Resume";
 import { LayoutContext } from "@/context/layout-context";
-import { AboutMe } from "../griditems/aboutme";
+import { About } from "../griditems/About";
 
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 
@@ -72,7 +72,7 @@ export const DragFromOutsideLayout = () => {
           }}
           className="lg:px-8 px-4 dark:dark:bg-[#172439] bg-[#FFFFFF] dark:text-white text-[#0F1117] cursor-grab flex items-center rounded-[32px] overflow-hidden"
         >
-          <AboutMe />
+          <About />
         </div>
 
         <div
