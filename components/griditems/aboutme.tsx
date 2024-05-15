@@ -1,5 +1,4 @@
 import { siteConfig } from "@/config/site-config";
-import { useTypewriter } from "react-simple-typewriter";
 import React from "react";
 
 export const About = () => {
