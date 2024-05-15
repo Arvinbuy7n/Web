@@ -19,7 +19,7 @@ import {
 import { motion } from "framer-motion";
 import { Resume } from "../griditems/Resume";
 import { LayoutContext } from "@/context/layout-context";
-import { AboutMe } from "../griditems/AboutMe";
+import { AboutMe } from "../griditems/aboutme";
 
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 
