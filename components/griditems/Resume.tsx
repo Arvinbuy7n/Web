@@ -10,7 +10,7 @@ export const Resume = () => {
       onMouseDown={(e: any) => {
         e.stopPropagation();
         window.open(
-          "https://www.figma.com/design/MUNnzVWFbwQSMPHCGsBQfA/Untitled?t=2kZAmntS9hSmgA9E-0"
+          "https://www.figma.com/design/u66RwlyQAFmU2sFUc2HPvR/Untitled?node-id=0-1&t=mcm1oe6r5jX0khlz-0"
         );
       }}
     >
