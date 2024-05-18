@@ -11,7 +11,7 @@ import { MdArrowOutward } from "react-icons/md";
 import MySkills from "../griditems/Skills";
 import { isMobile } from "react-device-detect";
 import {
-  BlankProject,
+  BlogTdd,
   Ecommerce,
   ExpenseTrack,
   FoodDelivery,
@@ -104,7 +104,7 @@ export const DragFromOutsideLayout = () => {
           key={layoutState[4].i}
           className=" dark:text-white  text-[#0F1117] rounded-[32px] overflow-hidden "
         >
-          <BlankProject />
+          <BlogTdd />
         </div>
 
         <div
