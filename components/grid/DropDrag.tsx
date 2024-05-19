@@ -20,6 +20,7 @@ import { motion } from "framer-motion";
 import { Resume } from "../griditems/Resume";
 import { LayoutContext } from "@/context/layout-context";
 import { About } from "../griditems/About";
+import { Contact } from "../griditems/Contact";
 
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 
@@ -143,7 +144,7 @@ export const DragFromOutsideLayout = () => {
           key={layoutState[8].i}
           className="overflow-hidden flex justify-center items-center dark:text-white text-[#0F1117] rounded-[32px] bg-[#FFFFFF] dark:bg-[#172439]"
         >
-          Empty
+          <Contact />
         </div>
 
         <div
