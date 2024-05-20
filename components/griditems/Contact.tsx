@@ -20,15 +20,17 @@ const data = [
 
 export const Contact = () => {
   return (
-    <div className="p-8">
+    <div className="p-8 ">
       <div>
         <motion.button>
           <div className="flex flex-col gap-3">
             {data.map((item, index) => {
               return (
                 <div key={index} className="flex items-center gap-2">
-                  <a className="text-[20px]">{item.icon}</a>
-                  <p className="text-xl">{item.text}</p>
+                  <a className="sm:text-[20px] text-[14px]">{item.icon}</a>
+                  <p className="sm:text-[20px] text-[14px] whitespace-nowrap">
+                    {item.text}
+                  </p>
                 </div>
               );
             })}
