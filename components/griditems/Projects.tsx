@@ -43,7 +43,7 @@ export const Ecommerce = () => {
               onMouseLeave={() => setIsHovered(false)}
               onMouseDown={(e) => {
                 e.stopPropagation();
-                window.open("https://team-4-bash.vercel.app/");
+                window.open("https://ecommerce-mo.vercel.app/");
               }}
             />
           </motion.button>
